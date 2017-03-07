@@ -1,0 +1,47 @@
+<android.support.v4.widget.SwipeRefreshLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/swipe_refresh_layout" xmlns:tools="http://schemas.android.com/tools" android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    tools:context="abrahamlay.kknp2015.warungsosro.ListTicketActivity"
+    android:background="@color/bg_list_2"
+    android:orientation="vertical">
+
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent">
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1">
+
+                <ListView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:id="@+id/list"
+                    android:layout_weight="1" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.1">
+
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="Request"
+                    android:id="@+id/request"
+                    android:layout_gravity="top|bottom"
+                    android:background="@color/bg_Button"
+                    android:textColor="@color/bg_list_1"
+                    android:padding="10dp" />
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+</android.support.v4.widget.SwipeRefreshLayout>

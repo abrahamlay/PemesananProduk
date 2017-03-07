@@ -1,0 +1,113 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="abrahamlay.kknp2015.warungsosro.RequestActivity"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="60dp"
+        android:background="@color/bg_header"
+        android:layout_weight="0" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/app_name"
+            android:id="@+id/textView5"
+            android:textColor="@color/text_header"
+            android:textSize="20sp"
+            android:layout_gravity="center_vertical|right"
+            android:layout_marginLeft="16dp"
+            android:gravity="right" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/access"
+            android:id="@+id/access"
+            android:textColor="@color/text_header"
+            android:textSize="20sp"
+            android:layout_marginLeft="16dp"
+            android:layout_gravity="center_vertical"
+            android:gravity="right"
+            android:layout_marginRight="16dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="20dp"
+        android:background="@color/bg_detail_tiket"
+        android:layout_weight="1">
+
+        <Spinner
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:id="@+id/spinnerBrg"
+            android:spinnerMode="dropdown"
+            android:dropDownSelector="@color/bg_list_1"
+            android:background="@color/bg_list_1"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="20dp"
+            android:gravity="center_vertical|center_horizontal" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:inputType="number"
+            android:ems="10"
+            android:id="@+id/editText"
+            android:hint="Jumlah (Kratt)"
+            android:background="@color/bg_list_1"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="20dp"
+            android:gravity="center_vertical|center_horizontal" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:id="@+id/dateText"
+            android:background="@color/bg_list_1"
+            android:gravity="center_vertical|center_horizontal"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="20dp"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:inputType="date"
+            android:clickable="true"
+            android:hint="Tanggal Terima" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:id="@+id/timeText"
+            android:background="@color/bg_list_1"
+            android:gravity="center_vertical|center_horizontal"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="20dp"
+            android:inputType="time"
+            android:clickable="true"
+            android:hint="Waktu terima" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.1">
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="SEND TICKET REQUEST"
+            android:id="@+id/buttonSendRequest"
+            android:background="@color/bg_Button"
+            android:textColor="@color/bg_list_1"
+            android:layout_weight="0.1" />
+    </LinearLayout>
+
+</LinearLayout>

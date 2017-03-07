@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="bg_header">#bf360c</color>
+    <color name="text_header">#FFFFFF</color>
+    <color name="text_title">#2C2C2C</color>
+    <color name="text_sub">#868686</color>
+    <color name="bg_detil">#FAAA20</color>
+    <color name="bg_list_pressed">#eee</color>
+    <color name="sub_text_detail">#FFEBEE</color>
+    <color name="list_text_detail">#424242</color>
+    <color name="bg_tab">#bcaaa4</color>
+    <color name="bg_list_1">#FFE0B2</color>
+    <color name="bg_list_2">#FFCC80</color>
+    <color name="bg_list_detail_pressed">#FFCDD2</color>
+    <color name="bg_error">#F44336</color>
+    <color name="bg_detail_tiket">#ff5722</color>
+    <color name="bg_delivered">#4caf50</color>
+    <color name="bg_verified">#8bc34a</color>
+    <color name="bg_pending">#bdbdbd</color>
+    <color name="bg_forwarded">#4db6ac</color>
+    <color name="bg_diverted">#ffc107</color>
+    <color name="bg_approved">#827717</color>
+    <color name="bg_active">#2196f3</color>
+    <color name="bg_Button">#795548</color>
+    <color name="font_status_detail">#FFEEEEEE</color>
+
+</resources>

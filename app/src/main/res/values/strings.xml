@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">WarungSosro</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_list_ticket">Ticket</string>
+    <string name="title_activity_list_agen">Agen</string>
+    <string name="title_activity_list_warung">Warung</string>
+    <string name="title_activity_list_tablayout1">Tablayout1</string>
+    <string name="access">Distributor</string>
+    <string name="title_activity_detail_ticket">DetailTicketActivity</string>
+    <string name="title_activity_request">RequestActivity</string>
+    <string name="title_activity_tabhost_agen">TabhostAgenActivity</string>
+    <string name="title_activity_sign_up">SignUpActivity</string>
+    <string name="title_activity_tabhost_warung">title_activity_tabhost_warung</string>
+    <string name="title_activity_forward">ForwardActivity</string>
+    <string name="title_activity_edit_profil_warung">EditProfilWarungActivity</string>
+
+</resources>
